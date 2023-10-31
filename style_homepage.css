@@ -1,0 +1,82 @@
+.navigation_bar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin-left: -8px;
+}
+.navigation_bar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    padding-left: 50px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navigation_bar a{
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    display: block;
+    text-align: center;
+}
+.navigation_bar a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+.navigation_bar li{
+    float: left;
+    padding-left: 20%;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.icon {
+	width: 60px;
+	height: 60px;
+	float: left;
+	padding: 0px;
+	border-radius: 50%;
+}
+.title{
+	background-color: white;
+	width: 500px;
+	height: 125px;
+	border: ridge black 5px;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+.header{
+    text-align: left;
+    margin: auto;
+	margin-top: 50px;
+    margin-left: 50px;
+    background-color: white;
+	width: 230px;
+	height: 85px;
+	border: ridge black 5px;
+	border-radius: 25px;
+}
+.soups{
+    position: fixed;
+    margin: 0px 75px 50px 40px;
+    display: flex;
+    gap: 75px;
+    text-align: center;
+    border:ridge black 5px;
+    border-radius: 25px;
+    background-color: white;
+}
+.soups a{
+    text-decoration: none;
+    color:black;
+}
+.images{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10%;
+    padding: 10px 10px 0px 10px;
+}
+body{
+    background-image: url('https://img.freepik.com/free-vector/seamless-white-interlaced-rounded-arc-patterned-background_53876-97975.jpg?w=740&t=st=1698746640~exp=1698747240~hmac=2365fe87d4fd1ba16f7d08bb9c031c7bcffcedbc8faf104737573dbb322748c3');
+}
