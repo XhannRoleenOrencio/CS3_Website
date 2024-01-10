@@ -11,38 +11,55 @@
 .navigation_bar ul{
     list-style-type: none;
     background-color: hsl(0, 0%, 20%);
-    padding: 10px;
-    padding-left: 50px;
+    padding: 1%;
+    padding-left: 5%;
     margin: 0px;
     overflow: hidden;
 }
 .navigation_bar a{
     color: white;
     text-decoration: none;
-    padding: 0px;
+    padding: 0px 5px;
     display: block;
     text-align: center;
+    border-radius: 7%;
+    transition: color 0.5s;
 }
 .navigation_bar a:hover {
-    background-color: hsl(0, 0%, 10%);
+    color: rgb(210, 210, 210)
+}
+.navigation_bar a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: hsl(0, 0%, 20%);
+    position:absolute;
+    top: 0;
+    width: 0%;  
+    transition: all ease-in-out 250ms;
+}
+.navigation_bar a:hover::before{
+    width: 100%;
 }
 .navigation_bar li{
     float: left;
     padding-left: 20%;
-    padding-top: 15px;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 60px;
+    text-transform: uppercase;
+    position: relative;
 }
 .icon {
-	width: 60px;
-	height: 60px;
+	max-width: 60px;
+	max-height: 60px;
 	float: left;
 	padding: 0px;
 	border-radius: 50%;
 }
 .title{
 	background-color: white;
-	width: 500px;
-	height: 125px;
+	max-width: 500px;
+	max-height: 125px;
 	border: ridge black 5px;
 	border-radius: 25px;
 	margin: auto;
@@ -50,13 +67,13 @@
 	text-align: center;
 }
 .header{
+    background-color: white;
     position: relative;
     text-align: center;
     margin: auto;
 	margin-top: 1%;
     margin-left: 50px;
-    background-color: white;
-	width: 250px;
+	max-width: 250px;
 	height: 125px;
 	border: ridge black 5px;
 	border-radius: 25px;
@@ -69,8 +86,8 @@
 }
 .soups{
     margin: auto;
-    width: 90%;
-    height: 59%;
+    max-width: 90%;
+    max-height: 59%;
     display: flex;
     gap: 75px;
     text-align: center;
