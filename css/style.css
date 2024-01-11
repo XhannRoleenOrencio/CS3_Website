@@ -1,7 +1,19 @@
 * {
     font-family: 'Nunito'; 
 }
-
+.navsprite{
+    width: 51px;
+    height: 51px;
+    transition: background 0.5s ease;
+    border-radius: 10px;
+    background: url('../images/socialmediasprite.webp') no-repeat -60px -5px;
+}
+.navsprite:hover{
+    width: 51px;
+    height: 51px;
+    border-radius: 10px;
+    background: url('../images/socialmediasprite.webp') no-repeat -60px -62px;
+}
 .navigation_bar{
 	position: fixed;
 	top: 0;
@@ -19,7 +31,6 @@
 .navigation_bar a{
     color: white;
     text-decoration: none;
-    padding: 0px 5px;
     display: block;
     text-align: center;
     border-radius: 7%;
@@ -30,7 +41,7 @@
 }
 .navigation_bar li{
     float: left;
-    padding-left: 18%;
+    padding-left: 15%;
     font-size: 18px;
     line-height: 60px;
     text-transform: uppercase;
