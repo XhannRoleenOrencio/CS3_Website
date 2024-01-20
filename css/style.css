@@ -4,15 +4,30 @@
 .navsprite{
     width: 51px;
     height: 51px;
-    transition: background 0.5s ease;
     border-radius: 10px;
-    background: url('../images/socialmediasprite.webp') no-repeat -60px -5px;
+    background: url('../imgs/socialmediasprite.png') no-repeat -46px -3px; 
+    transition: background 0.5s ease;
 }
 .navsprite:hover{
     width: 51px;
     height: 51px;
     border-radius: 10px;
-    background: url('../images/socialmediasprite.webp') no-repeat -60px -62px;
+    background: url('../imgs/socialmediasprite.png') no-repeat -46px -47px;
+    transition: background 0.5s ease;
+}
+.navsprite2{
+    width: 51px;
+    height: 51px;
+    border-radius: 10px;
+    background: url('../imgs/socialmediasprite.png') no-repeat -178px -3px;
+    transition: background 0.5s ease;
+}
+.navsprite2:hover{
+    width: 51px;
+    height: 51px;
+    border-radius: 10px;
+    background: url('../imgs/socialmediasprite.png') no-repeat -178px -47px;
+    transition: background 0.5s ease;
 }
 .navigation_bar{
 	position: fixed;
