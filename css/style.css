@@ -165,3 +165,6 @@ body{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.soup p{
+    margin: 10%;
+}
